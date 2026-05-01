@@ -39,22 +39,28 @@ A secondary question applies the same framework to crypto: **does combining shor
 sentiment-to-signal/
 ├── core/                          # Shared infrastructure
 │   ├── data_loader.py             # Pulls and caches data
-... (etc)
+│   ├── features.py                # Feature engineering utilities
+│   ├── backtest.py                # Vectorized backtester with costs
+│   ├── metrics.py                 # Sharpe, Sortino, max DD, hit rate
+│   └── portfolio.py               # Position sizing, risk management
+├── strategy_equity_sentiment/
+│   ├── ingest_reddit.py
+│   ├── extract_sentiment.py
+│   ├── build_features.py
+│   ├── train_model.py
+│   ├── backtest_strategy.py
+│   └── results/
+├── strategy_crypto_momentum/
+│   ├── ingest_binance.py
+│   ├── build_features.py
+│   ├── strategy_logic.py
+│   ├── backtest_strategy.py
+│   └── results/
+├── notebooks/                     # Exploratory analysis
+├── tests/                         # Unit tests for backtester
+├── requirements.txt
 └── README.md
 ```
-
-## Roadmap
-
-- [ ] Project scaffolding and environment setup
-- [ ] Core data loaders (Reddit, equity, crypto)
-- [ ] FinBERT sentiment extraction pipeline
-- [ ] Feature engineering at ticker-day level
-- [ ] Walk-forward CV framework
-- [ ] Baseline + XGBoost models with ablation studies
-- [ ] Equity backtest with realistic execution costs
-- [ ] Crypto strategy build and backtest
-- [ ] Performance attribution and regime analysis
-- [ ] Final writeup with results and self-critique
 
 ## Tech stack
 
