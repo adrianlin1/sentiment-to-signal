@@ -35,30 +35,13 @@ A secondary question applies the same framework to crypto: **does combining shor
 
 ## Repository structure
 
+```
 sentiment-to-signal/
 ├── core/                          # Shared infrastructure
 │   ├── data_loader.py             # Pulls and caches data
-│   ├── features.py                # Feature engineering utilities
-│   ├── backtest.py                # Vectorized backtester with costs
-│   ├── metrics.py                 # Sharpe, Sortino, max DD, hit rate
-│   └── portfolio.py               # Position sizing, risk management
-├── strategy_equity_sentiment/
-│   ├── ingest_reddit.py
-│   ├── extract_sentiment.py
-│   ├── build_features.py
-│   ├── train_model.py
-│   ├── backtest_strategy.py
-│   └── results/
-├── strategy_crypto_momentum/
-│   ├── ingest_binance.py
-│   ├── build_features.py
-│   ├── strategy_logic.py
-│   ├── backtest_strategy.py
-│   └── results/
-├── notebooks/                     # Exploratory analysis
-├── tests/                         # Unit tests for backtester
-├── requirements.txt
+... (etc)
 └── README.md
+```
 
 ## Roadmap
 
