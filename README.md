@@ -1,3 +1,19 @@
+<p align="center">
+  <img src="lodestar.jpg" alt="Lodestar" width="400">
+</p>
+
+<p align="center">
+  <em>Following the signal through noise.</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-in_development-yellow" alt="Status">
+  <img src="https://img.shields.io/badge/python-3.11+-blue" alt="Python">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+</p>
+
+# lodestar
+
 # lodestar
 
 A quantitative research pipeline for building tradeable ML signals from alternative data, validated across equity and crypto markets.
