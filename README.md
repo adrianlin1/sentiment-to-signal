@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <em>Following the signal through noise.</em>
+  <em>A north star for quantitative research.</em>
 </p>
 
 <p align="center">
