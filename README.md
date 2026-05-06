@@ -1,6 +1,6 @@
 # lodestar
 
-A quantitative research pipeline that builds tradeable ML signals from alternative data, validated on equity and crypto markets.
+A quantitative research pipeline for building tradeable ML signals from alternative data, validated across equity and crypto markets.
 
 > 🚧 **Status:** In active development (June – August 2026). Project scaffolding and data ingestion in progress. See roadmap below.
 
