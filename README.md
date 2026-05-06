@@ -1,4 +1,4 @@
-# Sentiment-to-Signal
+# lodestar
 
 A quantitative research pipeline that builds tradeable ML signals from alternative data, validated on equity and crypto markets.
 
