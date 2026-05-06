@@ -36,7 +36,7 @@ A secondary question applies the same framework to crypto: **does combining shor
 ## Repository structure
 
 ```
-sentiment-to-signal/
+lodestar/
 ├── core/                          # Shared infrastructure
 │   ├── data_loader.py             # Pulls and caches data
 │   ├── features.py                # Feature engineering utilities
